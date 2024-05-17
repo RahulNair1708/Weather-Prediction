@@ -9,7 +9,7 @@ scikit-learn
 matplotlib
 seaborn
 
-#Approach
+# Approach
 The data was prepared, checked for any missing values or outliers and transformed into a suitable format for model training.
 Then the dataset is split into training and testing sets to evaluate the model's performance on unseen data, ensuring that the model can generalize well to new data.
 The Random Forest model is trained on the training set using the historical weather data. The model parameters are tuned to achieve the best performance, leveraging the ensemble nature of Random Forests to improve accuracy and reduce overfitting.
